@@ -153,7 +153,7 @@ At the Azure Virtual Network level, Azure provides you with three primary load b
 ## HTTP-based Load Balancing
 HTTP-based load balancing bases decisions about what server to send connections using characteristics of the HTTP protocol. Azure has an HTTP load balancer that goes by the name of Application Gateway.
 
-We recommend that you us Azure Application Gateway when:
+We recommend that you use Azure Application Gateway when:
 
 * Applications that require requests from the same user/client session to reach the same back-end virtual machine. Examples of this would be shopping cart apps and web mail servers.
 * Applications that want to free web server farms from SSL termination overhead by taking advantage of Application Gateway’s [SSL offload](https://f5.com/glossary/ssl-offloading) feature.
